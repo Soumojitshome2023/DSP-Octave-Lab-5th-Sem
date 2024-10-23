@@ -1,3 +1,4 @@
 # Octave Code
 
-1. [Code1](/code1.m)
+##  Basic : Code1 to Code17
+  

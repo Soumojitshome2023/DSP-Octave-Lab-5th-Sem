@@ -26,3 +26,15 @@ stem(c,z)
 title('y(n)');
 xlabel('n--->');
 ylabel('Amp--->');
+
+
+%{
+
+Enter 1st sequence : [1,9,5,2,1]
+Enter 2nd sequence : [1,2,3]
+z =
+
+    1   11   26   39   20    8    3
+
+
+%}

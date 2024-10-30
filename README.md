@@ -50,3 +50,13 @@
   * **8 Point :**
 ![code31](./assets/figcode31_2.png)  
 --- 
+
+* **Code 32 :** 
+  * **8 Point :**
+![code32](./assets/figcode32_1.png)  
+  * **50 Point :**
+![code32](./assets/figcode32_2.png)  
+--- 
+
+* **Code 33 :** 
+![code33](./assets/figcode33.png)  

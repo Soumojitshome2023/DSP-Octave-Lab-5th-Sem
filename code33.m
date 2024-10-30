@@ -53,3 +53,14 @@ xlabel('Time');
 ylabel('Amplitude');
 title('y(n) - Circular Convolution Result');
 
+
+
+%{
+
+
+Enter the 1st Sequence: [1,-1,-2,3,-1]
+Enter the 2nd Sequence: [1,2,3]
+Circular Convolution Result:
+   8  -2  -1  -4  -1
+
+%}

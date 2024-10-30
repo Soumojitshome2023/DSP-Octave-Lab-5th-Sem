@@ -55,3 +55,7 @@ title("Phase Spectrum");
 %Enter the Sequence: [1,1,1]
 %Enter the length of DFT, N: 8
 
+%Command Window
+%Enter the Sequence: [1,1,1]
+%Enter the length of DFT, N: 50
+

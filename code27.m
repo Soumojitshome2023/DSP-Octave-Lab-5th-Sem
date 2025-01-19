@@ -1,3 +1,6 @@
+
+% Find linear convolution of two user input sequence using 'conv' function, also plot the given sequence and convolute sequence  
+
 x = input("Enter 1st sequence : ");
 y = input("Enter 2nd sequence : ");
 

@@ -1,3 +1,6 @@
+% Discrete time signal plot using octave (i) unit impulse signal (ii) unit step (iii) Ramp (iv) Parabolic Signal
+
+% Unit Impulse
 n1 = [-5:5];
 x1 = n1 >=0;
 y1 = n1-1>=0;
@@ -8,7 +11,7 @@ xlabel('T--->')
 ylabel('Amp--->')
 title('Unit Impulse')
 
-
+% Unit Step
 n2 = [-3:5];
 x2 = n2 >=0;
 y2 = n2-6>=0;

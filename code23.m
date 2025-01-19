@@ -1,3 +1,5 @@
+% plot sinx, cosx, 2*sinx*cosx, sinx/cosx in one window using subplot command
+
 x = linspace(0, 2*pi, 100);
 y1 = sin(x);
 y2 = cos(x);

@@ -1,4 +1,4 @@
-% Circular Convolution Program
+% Q : Circular Convolution Program
 
 % Input the first sequence
 X = input("Enter the 1st Sequence: ");

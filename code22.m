@@ -1,3 +1,5 @@
+% plot sinx cosx on the same plot using hold on command
+
 x = linspace(0, 2*pi, 100);
 y1 = sin(x);
 y2 = cos(x);

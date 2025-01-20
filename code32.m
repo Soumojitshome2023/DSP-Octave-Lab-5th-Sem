@@ -23,12 +23,6 @@ title("Original Sequence X(k)");
 % Initialize reconstructed sequence for inverse DFT
 Xn_reconstructed = zeros(1, N);
 
-%{
-  Formula Source
-  https://jru.edu.in/studentcorner/lab-manual/btech/EE/5th-sem/LAB%20MANUAL%20DIGITAL%20SIGNAL%20PROCESSING-btech5thsem.pdf
-  Page 21
-
-%}
 
 % Inverse DFT computation
 for n = 0:N-1
@@ -36,7 +30,6 @@ for n = 0:N-1
         Xn_reconstructed(n+1) = Xn_reconstructed(n+1) + (1/N) * Xk(k+1) * exp(2*pi*(1i)*k*n/N); % positive 1i
     end
 end
-
 
 
 % Display reconstructed sequence

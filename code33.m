@@ -1,4 +1,4 @@
-% Q : Circular Convolution Program
+% Q : Circular Convolution Program Without using built-in functions
 
 % Input the first sequence
 X = input("Enter the 1st Sequence: ");
@@ -24,6 +24,7 @@ for n = 0:maxlen-1
         y(n+1) = y(n+1) + X(k+1) * H(mod((n-k), maxlen) + 1);
     end
 end
+
 
 % Display the result of the circular convolution
 disp('Circular Convolution Result:');
@@ -63,4 +64,12 @@ Enter the 2nd Sequence: [1,2,3]
 Circular Convolution Result:
    8  -2  -1  -4  -1
 
+Enter the 1st Sequence: [1,2,3,4]
+Enter the 2nd Sequence: [1,1,1,1]
+Circular Convolution Result:
+   10   10   10   10
+
+
 %}
+
+

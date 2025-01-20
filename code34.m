@@ -1,4 +1,4 @@
-% User Input DFT
+% User Input DFT Without using built-in functions
 
 % Input sequence length (DFT size)
 N = input("Enter the length of DFT (N): "); % e.g., 8
@@ -55,3 +55,33 @@ stem(0:N-1, imag(z), 'filled');
 xlabel('k --->');
 ylabel('Imaginary Part of Z[k] --->');
 title('Imaginary Part of Z[k]');
+
+
+%{
+
+Command Window
+Enter the length of DFT (N): 4
+Enter the sequence X[n]: [0,2,4,6]
+DFT Result Z[k]:
+   12.0000+0i   -4.0000+4.0000i   -4.0000-0.0000i   -4.0000-4.0000i
+
+========================================================
+Discrete Fourier Transform (DFT) using the built-in fft function.
+
+% Example time-domain signal
+time_signal = [0,2,4,6];
+
+% Compute the Discrete Fourier Transform (DFT)
+fourier_transformed = fft(time_signal);
+
+% Display the result
+disp('DFT:');
+disp(fourier_transformed);
+
+Command Window
+DFT:
+   12+0i   -4+4i   -4+0i   -4-4i
+
+
+
+%}
